@@ -6,5 +6,6 @@ CREATE TABLE ANIMALS(
    DATE_OF_BIRTH    DATE            NOT NULL,
    ESCAPE_ATTEMPTS  INT             NOT NULL,
    NEUTERED         BOOLEAN         NOT NULL,
-   WEIGHT_KG        DECIMAL (5, 2)  NOT NULL
+   WEIGHT_KG        DECIMAL (5, 2)  NOT NULL,
+   SPECIES          VARCHAR(50)
 );
