@@ -7,5 +7,8 @@ CREATE TABLE ANIMALS(
    ESCAPE_ATTEMPTS  INT             NOT NULL,
    NEUTERED         BOOLEAN         NOT NULL,
    WEIGHT_KG        DECIMAL (5, 2)  NOT NULL,
-   SPECIES          VARCHAR(50)
 );
+
+/* Vet clinic database: query and update animals table */
+
+ALTER TABLE ANIMALS ADD SPECIES VARCHAR(50);
