@@ -64,3 +64,8 @@ CREATE TABLE VISITS (
 	FOREIGN KEY (VETS_ID) REFERENCES VETS (ID) ON DELETE RESTRICT ON UPDATE CASCADE,
 	PRIMARY KEY (ANIMALS_ID, VETS_ID, DATE_OF_VIST)
 );
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+create index visits_animal_id_asc on visits(animals_id asc);
+create index visits_vet_id_desc on visits(vets_id desc);
+create index owners_email_asc on owners(email asc);
