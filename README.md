@@ -2,6 +2,13 @@
 
 ## Getting Started
 
+
+>### Database schema diagram
+
+
+![Vet_clinic_img](https://user-images.githubusercontent.com/34578631/155209811-3c5c11fa-9b3c-4c26-9b63-0712d1126d8c.png)
+
+
 This repository includes files with plain SQL that can be used to recreate a database:
 
 - Use [schema.sql](https://github.com/Mre55/Vet-clinic-database/blob/main/schema.sql) to create all tables.
